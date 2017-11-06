@@ -2,4 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-a:hover,a:focus { font-weight:normal }
+a:hover, a:focus { 
+  font-weight:normal;
+}
+header ul a:hover, header ul a:focus {
+  font-weight:normal;
+}
